@@ -102,7 +102,7 @@ behr_blackout/
 
 ## 💬 Credits
 
-**Script by:** Behr
+**Script by:** [Behr Development](https://discord.gg/wA7W5dUMG6)  
 **Dependency:** [ox\_lib](https://github.com/overextended/ox_lib)
 
 ---
