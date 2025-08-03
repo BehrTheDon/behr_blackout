@@ -24,7 +24,7 @@ A lightweight, easy-to-use FiveM script to toggle full server-wide blackouts –
 
 2. **Dependencies:**
 
-   * [ox\_lib](https://overextended.dev/)
+   * [ox\_lib](https://github.com/overextended/ox_lib/releases)
    * Make sure `ox_lib` is started **before** `behr_blackout` in your `server.cfg`
 
 3. **Configuration:**
@@ -86,7 +86,7 @@ behr_blackout/
 │   └── server.lua  
 ├── shared/  
 │   └── config.lua  
-├── fxmanifest.lua  
+└── fxmanifest.lua  
 ``` 
 
 ---
@@ -103,7 +103,7 @@ behr_blackout/
 ## 💬 Credits
 
 **Script by:** [Behr Development](https://discord.gg/wA7W5dUMG6)  
-**Dependency:** [ox\_lib](https://github.com/overextended/ox_lib)
+**Dependency:** [ox\_lib](https://github.com/overextended/ox_lib/releases)
 
 ---
 
