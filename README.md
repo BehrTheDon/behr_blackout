@@ -79,8 +79,8 @@ A lightweight, easy-to-use FiveM script to toggle full server-wide blackouts –
 ## 📊 Performance
 
 Lightweight and optimized:
-- **CPU Usage:** 0.00 ms
-- **Memory:** ~283 KB
+- **CPU Usage:** ~0.01 ms while in use
+- **Memory:** ~283 KB on startup
 - **Streaming:** None
 
 <p align="center">
