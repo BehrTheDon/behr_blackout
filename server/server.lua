@@ -16,7 +16,7 @@ if Config.VersionCheckEnabled then
                         print("^5Get the latest version at: ^0https://github.com/BehrTheDon/behr_blackout")
                         print("^6----------------------------------------------------------------")
                     else
-                        print("^2[" .. resourceName .. "]^0 is up to date! (v" .. currentVersion .. ")")
+                        print("^2[" .. resourceName .. "]^0 is up to date! (v" .. currentVersion .. ") Thank you for using Behr Development Scripts!")
                     end
                 else
                     print("^1[" .. resourceName .. "]^0 Couldn't parse latest version.")
