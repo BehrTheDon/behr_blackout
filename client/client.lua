@@ -1,8 +1,8 @@
 local blackoutActive = false
 
-if Config.Debug then
-    function debugPrint(msg)
-        print("[Behr_Blackout] " .. msg)
+function debugPrint(message)
+    if Config.Debug then
+        print("[Behr_Blackout] " .. message)
     end
 end
 
@@ -53,8 +53,30 @@ function blackoutNotify(state)
     end
 end
 
+function flickerLights(state)
+    SetArtificialLightsState(state)
+    Wait(100 + math.random(-25, 25))
+    SetArtificialLightsState(not state)
+    Wait(150 + math.random(-25, 25))
+    SetArtificialLightsState(state)
+    Wait(90 + math.random(-25, 25))
+    SetArtificialLightsState(not state)
+    Wait(200 + math.random(-75, 25))
+    SetArtificialLightsState(state)
+    Wait(500 + math.random(-225, 25))
+    SetArtificialLightsState(not state)
+    Wait(150 + math.random(-75, 75))
+    SetArtificialLightsState(state)
+    Wait(150 + math.random(-25, 25))
+    SetArtificialLightsState(not state)
+    Wait(300 + math.random(-100, 100))
+end
+
 RegisterNetEvent('behr_blackout:client:toggleBlackout')
 AddEventHandler("behr_blackout:client:toggleBlackout", function(state)
+    if Config.FlickerLights then
+        flickerLights(state)
+    end
     SetArtificialLightsState(state)
     blackoutNotify(state)
 
