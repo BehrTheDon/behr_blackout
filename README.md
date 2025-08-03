@@ -76,6 +76,20 @@ A lightweight, easy-to-use FiveM script to toggle full server-wide blackouts –
 
 ---
 
+## 📊 Performance
+
+Lightweight and optimized:
+- **CPU Usage:** 0.00 ms
+- **Memory:** ~283 KB
+- **Streaming:** None
+
+<p align="center">
+  <img src="media/resmon.png" alt="Resource Monitor Preview" width="600"/>
+</p>
+
+
+---
+
 ## 📁 File Structure
 
 ```
