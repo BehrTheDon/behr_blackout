@@ -4,7 +4,7 @@ game 'gta5'
 name "behr_blackout"
 description "simple blackout script"
 author "Behr"
-version "1.0.0"
+version '1.0.0'
 
 lua54 'yes'
 
