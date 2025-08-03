@@ -84,7 +84,7 @@ Lightweight and optimized:
 - **Streaming:** None
 
 <p align="center">
-  <img src="media/resmon.png" alt="Resource Monitor Preview" width="800"/>
+  <img src="media/resmon.gif" alt="Resource Monitor Preview" width="800"/>
 </p>
 
 
